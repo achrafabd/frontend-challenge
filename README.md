@@ -1,29 +1,24 @@
-# frontend-challenge
+# Front-end Coding Challenge
 
-## Project setup
-```
-npm install
-```
+## Idea of the App 
+The task is to implement a small webapp that will list the most starred Github repos that were created in the last 30 days. 
+You'll be fetching the sorted JSON data directly from the Github API (Github API explained down below). 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Features
+* As a User I should be able to list the most starred Github repos that were created in the last 30 days. 
+* As a User I should see the results as a list. One repository per row. 
+* As a User I should be able to see for each repo/row the following details :
+  * Repository name
+  * Repository description 
+  * Number of stars for the repo. 
+  * Number of issues for the repo.
+  * Username and avatar of the owner. 
+* As a User I should be able to keep scrolling and new results should appear (pagination).
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Used technologies
 
-### Run your tests
-```
-npm run test
-```
+- **Vue CLI**.
+- **Vuetifyjs** for styling.
+- **Axios** To get the most starred Github repos created in the last 30 days.
+- **Moment** Parse, validate, manipulate, and display dates and times.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
